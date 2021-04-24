@@ -1,10 +1,10 @@
-package com.moviedb.discoveryserver;
+package com.moviedb.movieinfoservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DiscoveryServerApplicationTests {
+class MovieInfoServiceApplicationTests {
 
     @Test
     void contextLoads() {

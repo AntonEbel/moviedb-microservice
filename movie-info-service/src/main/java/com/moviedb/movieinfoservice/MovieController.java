@@ -16,10 +16,16 @@ public class MovieController {
             Movie.builder()
                     .id("1")
                     .name("Iron Man")
+                    .images(List.of(
+                            "https://film-grab.com/2014/12/08/iron-man/#bwg988/61135"
+                    ))
                     .build(),
             Movie.builder()
                     .id("2")
                     .name("Iron Man II")
+                    .images(List.of(
+                            "https://film-grab.com/2014/12/22/iron-man-2/#bwg989/61241"
+                    ))
                     .build()
     );
 

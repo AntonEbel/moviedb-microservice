@@ -11,5 +11,5 @@ import java.util.List;
 public class Movie {
     @NonNull private String id;
     @NonNull private String name;
-    @NonNull private List<String> images;
+    @NonNull private String poster;
 }

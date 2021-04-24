@@ -11,3 +11,9 @@ spring:
           uri: lb://movie-info-service
           predicates:
             - Path=/v1/movies/**
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:3000"
+            allowedMethods:
+              - GET

@@ -1,0 +1,10 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+  - image: movie-info-service
+    jib: {}
+deploy:
+  kubectl:
+    manifests:
+      - build/classes/java/main/META-INF/dekorate/kubernetes.yml
